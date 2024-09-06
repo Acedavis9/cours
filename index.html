@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.scss">
+    <title>coursue</title>
 </head>
 <body>
-    
+    <div class="navbar">
+        <h1>Coursue</h1>
+        <input type="text" class="search-bar" placeholder="Search...">
+
+        <div class="navbar-icons">
+            <button class="icon-btn">
+                <img src="icons/mail.svg" alt="Mail" class="icon">
+            </button>
+            <button class="icon-btn">
+                <img src="icons/notification.svg" alt="Notifications" class="icon">
+            </button>
+            <div class="profile-section">
+                <img src="images/profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+                <span class="username">Username</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="sidebar">
+            <h3>Overview</h3>
+            <li><a href="#" style="text-decoration: none;">Overview</a></li>
+            <li><a href="#" style="text-decoration: none;">Dashboard</a></li>
+            <li><a href="#" style="text-decoration: none;">Inbox</a></li>
+            <li><a href="#" style="text-decoration: none;">Lesson</a></li>
+            <li><a href="#" style="text-decoration: none;">Task</a></li>
+            <li><a href="#" style="text-decoration: none;">Group</a></li>
+            <li><a href="#" style="text-decoration: none;">Friends</a></li>
+            <div class="settings">
+                <li><a href="#" style="text-decoration: none;">Settings</a></li>
+                <li><a href="#" style="text-decoration: none;">Setting</a></li>
+                <li><a href="#" style="text-decoration: none;">Logout</a></li>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="card">
+                <h2>Card 1</h2>
+                <p>Some information about Card 1.</p>
+            </div>
+            <div class="othersidebar">
+                <h2>Card 2</h2>
+                <p>Some information about Card 2.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Dashboard. All rights reserved.</p>
+    </div>
 </body>
 </html>
