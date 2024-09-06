@@ -6,11 +6,15 @@
     <link rel="stylesheet" href="./styles/style.scss">
     <title>coursue</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="navbar">
-        <h1>Coursue</h1>
+        <div class="logo">
+            <img src="img/coursue.png" class="logo"><h1>Coursue</h1>
+        </div>
         <input type="text" class="search-bar" placeholder="Search...">
 
         <div class="navbar-icons">
@@ -18,39 +22,38 @@
                 <i class="fa-solid fa-envelope"></i>
             </button>
             <button class="icon-btn">
-                <img src="icons/notification.svg" alt="Notifications" class="icon">
+                <i class="fa-solid fa-bell"></i>
             </button>
             <div class="profile-section">
-                <img src="images/profile-pic.jpg" alt="Profile Picture" class="profile-pic">
-                <span class="username">Username</span>
+                <img src="img/pfp.png" alt="Profile Picture" class="profile-pic">
+                <span class="username">Jason Ranti</span>
             </div>
         </div>
     </div>
 
     <div class="content">
         <div class="sidebar">
-            <h3>Overview</h3>
-            <li><a href="#" style="text-decoration: none;">Overview</a></li>
-            <li><a href="#" style="text-decoration: none;">Dashboard</a></li>
-            <li><a href="#" style="text-decoration: none;">Inbox</a></li>
-            <li><a href="#" style="text-decoration: none;">Lesson</a></li>
-            <li><a href="#" style="text-decoration: none;">Task</a></li>
-            <li><a href="#" style="text-decoration: none;">Group</a></li>
-            <li><a href="#" style="text-decoration: none;">Friends</a></li>
+            <h5>Overview</h5>
+            <div class="menu-item"><i class="fa-solid fa-table-columns"></i><a href="#" style="text-decoration: none;">Dashboard</a></div>
+            <div class="menu-item"><i class="fa-solid fa-inbox"></i><a href="#" style="text-decoration: none;">Inbox</a></div>
+            <div class="menu-item"><i class="fa-solid fa-chalkboard-user"></i><a href="#" style="text-decoration: none;">Lesson</a></div>
+            <div class="menu-item"><i class="fa-solid fa-list-check"></i><a href="#" style="text-decoration: none;">Task</a></div>
+            <div class="menu-item"><i class="fa-solid fa-layer-group"></i><a href="#" style="text-decoration: none;">Group</a></div>
+            <a href="#" style="text-decoration: none;">Friends</a>
             <div class="settings">
-                <li><a href="#" style="text-decoration: none;">Settings</a></li>
-                <li><a href="#" style="text-decoration: none;">Setting</a></li>
-                <li><a href="#" style="text-decoration: none;">Logout</a></li>
+                <h5>Settings</h5>
+                <div class="menu-item"><i class="fa-solid fa-gear"></i><li><a href="#" style="text-decoration: none;">Setting</a></li></div>
+                <div class="menu-item"><i class="fa-solid fa-right-from-bracket"></i><li><a href="#" style="text-decoration: none;">Logout</a></li></div>
             </div>
         </div>
 
         <div class="main">
             <div class="purple">
                 <h6>ONLINE COURSE</h6>
-                <h1>Sharpen Your Skills with 
+                <h1>Sharpen Your Skills with <br>
                 Proffessional online courses</h1>
                 <button class="icon-btn">
-                    <h5>Join Now</h5>
+                    Join Now
                 </button>
             </div>
             <div class="card-container">
@@ -67,12 +70,13 @@
                     <p>Front End</p>
                 </div>
             </div>
-            <span><h3>Continue Watching</h3></span>
-            <span class="watching">
+           
+            <span class="watching"> 
+            <h3>Continue Watching</h3>
                 <div class="scrollable-container">
                     <div class="cards">
                         <img src="img/360_F_812415409_5GHPXS2oLgsKM4d1rQmGBwfkASmwDRMD.jpg" alt="UI/UX Design">
-                        <p>Optimizing User Experiene with the Best UI/UX Design</p>
+                        <p>Optimizing User Experiene with</p><p>the Best UI/UX Design</p>
                     </div>
                     <div class="cards">
                         <img src="img/gettyimages-1426893749-612x612.jpg" alt="Branding">
@@ -84,7 +88,8 @@
                     </div>
                 </div>
             </span>
-            <h3>Your Lesson</h3><p>See All</p>
+            
+            <div><h3>Your Lesson</h3>
             <table class="custom-table">
                 <thead>
                     <tr>
@@ -103,6 +108,7 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
         </div>
         <div class="othersidebar">
             <h3>Statistic</h3>
