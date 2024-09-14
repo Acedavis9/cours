@@ -131,3 +131,6 @@ body {
 .settings {
     margin-top: auto;
 }
+img {
+    border-radius: 5px;
+}
