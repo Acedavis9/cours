@@ -233,22 +233,22 @@ h3 {
     display:inline
   }
   .menu-item {
-    display: inline-flex; /* Inline-flex keeps items in a line and sizes to content */
-    align-items: center; /* Vertically centers the icon with the text */
-    margin-bottom: 5px; /* Space between each menu item, adjust as needed */
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 5px;
 }
 
 .menu-item i {
-    margin-right: 2px; /* Minimal space between the icon and the text */
+    margin-right: 2px;
 }
 
 a {
-    display: inline-block; /* Ensures the link aligns correctly with the icon */
-    line-height: 1; /* Reduces vertical spacing around the text */
+    display: inline-block;
+    line-height: 1;
 }
 .menu-item a {
-    margin-left: 5px; /* Space between the icon and the text */
-    text-decoration: none; /* Removes underline from links */
+    margin-left:
+    text-decoration: none;
     display: inline-block;
     display:flex
     
